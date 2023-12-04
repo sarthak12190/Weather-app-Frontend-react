@@ -1,0 +1,172 @@
+/* src/components/Weather.css
+
+.weather-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .input-container button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info {
+    text-align: center;
+  }
+  
+  .weather-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info p {
+    font-size: 16px;
+    margin: 5px 0;
+  } */
+  /* Weather.css */
+
+/* body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.weather-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+} */
+
+/* Weather.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.weather-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #333;
+  text-align: center;
+  /* Set background image */
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fcarahomesaustralia.tparchitects.com.au%2Fteach-kids-about-different-types-of-weather-ee-MX43AcG&psig=AOvVaw1Z4HfeTuJsFe8I-JYiZ6zB&ust=1701709564167000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjKxqPg84IDFQAAAAAdAAAAABAZ');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  color: #fff;
+}
+
+/* Rest of the styles remain unchanged */
+
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-container button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.weather-info {
+  text-align: center;
+}
+
+.weather-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Weather Images */
+.weather-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .weather-container {
+    max-width: 100%;
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  .input-container input,
+  .input-container button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+/* Weather Images */
+.weather-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+
