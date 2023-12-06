@@ -11,8 +11,8 @@ const Weather = () => {
 
   const getWeather = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/weather?location=${location}`);
-      // const response = await fetch(`http://weather-app-server1219-env.eba-znvgh5y3.us-east-1.elasticbeanstalk.com/api/weather?location=${location}`);
+      // const response = await fetch(`http://127.0.0.1:5000/api/weather?location=${location}`);
+       const response = await fetch(`https://server-weather-l2c9.onrender.com/api/weather?location=${location}`);
       if (!response.ok) {
         const errorMessage = await response.text();
         throw new Error(`Error: ${response.status} - ${errorMessage}`);
